@@ -1,0 +1,8 @@
+
+Emotion Analysis of Text
+https://github.com/kanchitank/Text-Emotion-Analysis/tree/master
+
+
+AI Model
+https://github.com/jmorganca/ollama
+
