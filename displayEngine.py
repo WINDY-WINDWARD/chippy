@@ -1,6 +1,5 @@
 import sys
 import logging
-import pygame
 from luma.core import cmdline, error
 from luma.core.interface.serial import i2c
 from luma.oled.device import sh1106
@@ -38,32 +37,9 @@ def display_settings(device, args):
     return f'Version: {version}\nDisplay: {args.display}\n{iface}Dimensions: {device.width} x {device.height}\n{"-" * 60}'
 
 
-def get_device(actual_args=None):
-    """
-    Create device from command-line arguments and return it.
-    """
-    # serial = i2c(port=1, address=0x3C)
-
-    # # Set up the OLED device
-    # device = sh1106(serial)
-    # return device
-
-    if actual_args is None:
-        actual_args = sys.argv[1:]
-    parser = cmdline.create_parser(description='luma.examples arguments')
-    args = parser.parse_args(actual_args)
-
-    if args.config:
-        # load config from file
-        config = cmdline.load_config(args.config)
-        args = parser.parse_args(config + actual_args)
-
-    # create device
-    try:
-        device = cmdline.create_device(args)
-        print(display_settings(device, args))
-        return device
-
-    except error.Error as e:
-        parser.error(e)
-        return None
+def get_device():
+    
+    serial = i2c(port=1, address=0x3C)
+    # Set up the OLED device
+    device = sh1106(serial)
+    return device
