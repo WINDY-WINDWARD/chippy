@@ -1,6 +1,7 @@
 import os
 import re
 from PIL import Image, ImageSequence
+from luma.core.render import canvas
 from luma.core.sprite_system import framerate_regulator
 from time import sleep
 
@@ -68,3 +69,9 @@ class DisplayFunctions:
         # invert colors
         img = Image.eval(img, lambda x: 255 - x)
         self.device.display(img.convert(self.device.mode))
+
+    def Text_display(self,text):
+        # Box and text rendered in portrait mode
+        with canvas(self.device) as draw:
+            draw.text((0, 0), "Hello World", fill="white")
+        sleep(5)

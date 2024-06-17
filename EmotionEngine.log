@@ -1,0 +1,284 @@
+2024-05-20 22:41:26,628 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:41:26,646 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 22:43:07,718 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:43:14,720 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:43:14,720 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 22:43:14,811 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 22:43:14,811 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:43:19,317 DEBUG MainThread emoteEnginge EmotionPredictor predicthappy
+2024-05-20 22:43:19,342 DEBUG MainThread emoteEnginge EmotionPredictor prediction: [1]
+2024-05-20 22:43:19,342 DEBUG MainThread emoteEnginge emotion: happy
+2024-05-20 22:43:19,343 DEBUG MainThread emoteEnginge BlinkThread stop False
+2024-05-20 22:43:21,812 DEBUG blinkThread emoteEnginge BlinkThread check stopped True
+2024-05-20 22:43:21,812 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 22:43:21,812 DEBUG MainThread starEyes starEyes.py
+2024-05-20 22:43:21,812 DEBUG MainThread starEyes display all png
+2024-05-20 22:43:22,565 DEBUG MainThread starEyes display only the last image
+2024-05-20 22:43:24,567 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:43:28,569 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:43:28,569 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 22:43:28,570 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 22:43:28,570 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:43:34,572 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:43:34,572 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 22:43:34,573 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 22:43:34,573 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:43:40,575 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:43:40,575 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 22:43:40,577 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 22:43:40,577 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:43:46,579 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:43:46,579 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 22:43:46,580 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 22:43:46,581 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:43:52,429 DEBUG MainThread emoteEnginge EmotionPredictor predicti am happy
+2024-05-20 22:43:52,452 DEBUG MainThread emoteEnginge EmotionPredictor prediction: [1]
+2024-05-20 22:43:52,452 DEBUG MainThread emoteEnginge emotion: happy
+2024-05-20 22:43:52,452 DEBUG MainThread emoteEnginge BlinkThread stop False
+2024-05-20 22:43:52,582 DEBUG blinkThread emoteEnginge BlinkThread check stopped True
+2024-05-20 22:43:52,582 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 22:43:52,582 DEBUG MainThread starEyes starEyes.py
+2024-05-20 22:43:52,582 DEBUG MainThread starEyes display all png
+2024-05-20 22:43:52,938 DEBUG MainThread starEyes display only the last image
+2024-05-20 22:43:54,940 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:43:59,941 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:43:59,941 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 22:43:59,943 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 22:43:59,943 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:44:04,944 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:44:04,944 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 22:44:04,945 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 22:44:04,945 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:44:11,947 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:44:11,947 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 22:44:11,949 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 22:44:11,949 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:44:18,950 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 22:44:18,950 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 22:44:18,951 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 22:44:18,952 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:48:07,609 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:48:14,703 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:48:14,703 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:48:14,803 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:48:14,803 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:48:19,820 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:48:19,820 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:48:19,919 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:48:19,919 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:48:21,895 DEBUG MainThread emoteEnginge EmotionPredictor predicthapppy
+2024-05-20 23:48:21,915 DEBUG MainThread emoteEnginge EmotionPredictor prediction: [1]
+2024-05-20 23:48:21,915 DEBUG MainThread emoteEnginge emotion: happy
+2024-05-20 23:48:21,915 DEBUG MainThread emoteEnginge BlinkThread stop False
+2024-05-20 23:48:24,935 DEBUG blinkThread emoteEnginge BlinkThread check stopped True
+2024-05-20 23:48:24,935 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:48:24,936 DEBUG MainThread starEyes starEyes.py
+2024-05-20 23:48:24,936 DEBUG MainThread starEyes display all png
+2024-05-20 23:48:25,297 DEBUG MainThread starEyes display only the last image
+2024-05-20 23:48:27,298 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:48:33,301 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:48:33,301 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:48:33,400 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:48:33,400 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:48:37,418 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:48:37,418 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:48:37,517 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:48:37,517 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:48:41,732 DEBUG MainThread emoteEnginge EmotionPredictor predictclear
+2024-05-20 23:48:41,750 DEBUG MainThread emoteEnginge EmotionPredictor prediction: [1]
+2024-05-20 23:48:41,751 DEBUG MainThread emoteEnginge emotion: happy
+2024-05-20 23:48:41,751 DEBUG MainThread emoteEnginge BlinkThread stop False
+2024-05-20 23:48:44,536 DEBUG blinkThread emoteEnginge BlinkThread check stopped True
+2024-05-20 23:48:44,536 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:48:44,536 DEBUG MainThread starEyes starEyes.py
+2024-05-20 23:48:44,536 DEBUG MainThread starEyes display all png
+2024-05-20 23:48:44,894 DEBUG MainThread starEyes display only the last image
+2024-05-20 23:48:46,896 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:48:50,899 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:48:50,899 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:48:51,000 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:48:51,000 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:49:04,283 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:49:09,743 DEBUG MainThread emoteEnginge EmotionPredictor predicthi
+2024-05-20 23:49:09,763 DEBUG MainThread emoteEnginge EmotionPredictor prediction: [0]
+2024-05-20 23:49:09,763 DEBUG MainThread emoteEnginge emotion: neutral
+2024-05-20 23:49:09,764 DEBUG MainThread emoteEnginge BlinkThread stop False
+2024-05-20 23:49:11,353 DEBUG blinkThread emoteEnginge BlinkThread check stopped True
+2024-05-20 23:49:11,353 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:49:11,353 ERROR MainThread emoteEnginge emotion not found
+2024-05-20 23:50:57,909 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:50:57,926 DEBUG blinkThread device Recording frame: 1
+2024-05-20 23:51:02,600 DEBUG MainThread emoteEnginge EmotionPredictor predicthi
+2024-05-20 23:51:02,622 DEBUG MainThread emoteEnginge EmotionPredictor prediction: [0]
+2024-05-20 23:51:02,622 DEBUG MainThread emoteEnginge emotion: neutral
+2024-05-20 23:51:02,622 DEBUG MainThread emoteEnginge BlinkThread stop False
+2024-05-20 23:51:04,927 DEBUG blinkThread emoteEnginge BlinkThread check stopped True
+2024-05-20 23:51:04,927 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:51:04,927 ERROR MainThread emoteEnginge emotion not found
+2024-05-20 23:51:04,929 DEBUG MainThread device Recording frame: 2
+2024-05-20 23:51:09,930 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:51:09,932 DEBUG blinkThread device Recording frame: 3
+2024-05-20 23:52:34,690 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:52:41,767 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:52:41,767 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:52:41,868 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:52:41,868 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:52:46,885 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:52:46,885 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:52:46,988 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:52:46,988 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:52:51,005 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:52:51,005 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:52:51,104 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:52:51,104 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:52:58,122 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:52:58,122 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:52:58,222 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:52:58,222 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:05,239 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:05,239 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:53:05,340 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:53:05,340 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:09,358 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:09,358 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:53:09,456 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:53:09,456 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:11,739 DEBUG MainThread emoteEnginge EmotionPredictor predicti am happy
+2024-05-20 23:53:11,760 DEBUG MainThread emoteEnginge EmotionPredictor prediction: [1]
+2024-05-20 23:53:11,760 DEBUG MainThread emoteEnginge emotion: happy
+2024-05-20 23:53:11,760 DEBUG MainThread emoteEnginge BlinkThread stop False
+2024-05-20 23:53:13,472 DEBUG blinkThread emoteEnginge BlinkThread check stopped True
+2024-05-20 23:53:13,472 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:53:13,472 DEBUG MainThread starEyes starEyes.py
+2024-05-20 23:53:13,472 DEBUG MainThread starEyes display all png
+2024-05-20 23:53:13,833 DEBUG MainThread starEyes display only the last image
+2024-05-20 23:53:15,834 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:19,837 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:19,837 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:53:19,938 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:53:19,938 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:26,954 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:26,954 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:53:27,057 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:53:27,057 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:33,075 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:33,075 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:53:33,175 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:53:33,175 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:39,191 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:39,191 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:53:39,289 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:53:39,289 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:43,306 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:43,306 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:53:43,404 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:53:43,404 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:47,423 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:47,423 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:53:47,523 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:53:47,523 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:53,540 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:53,540 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:53:53,639 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:53:53,639 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:58,656 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:53:58,656 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:53:58,755 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:53:58,755 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:02,771 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:02,771 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:54:02,870 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:54:02,870 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:08,887 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:08,887 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:54:08,987 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:54:08,988 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:13,005 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:13,005 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:54:13,106 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:54:13,106 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:17,122 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:17,122 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:54:17,222 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:54:17,222 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:23,240 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:23,240 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:54:23,344 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:54:23,344 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:28,361 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:28,361 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:54:28,460 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:54:28,460 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:33,476 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:33,476 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:54:33,575 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:54:33,575 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:37,592 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:37,592 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:54:37,691 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:54:37,691 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:44,707 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:44,707 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:54:44,808 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:54:44,808 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:51,825 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:51,825 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:54:51,927 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:54:51,927 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:56,944 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:54:56,944 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:54:57,042 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:54:57,042 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:01,058 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:01,058 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:55:01,158 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:55:01,158 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:08,176 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:08,176 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:55:08,277 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:55:08,277 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:13,294 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:13,294 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:55:13,391 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:55:13,391 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:20,407 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:20,407 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:55:20,506 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:55:20,506 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:25,524 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:25,524 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:55:25,623 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:55:25,623 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:31,640 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:31,640 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:55:31,738 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:55:31,738 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:35,755 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:35,755 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:55:35,855 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:55:35,855 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:41,500 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:48,569 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:48,569 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:55:48,687 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:55:48,687 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:55:53,482 DEBUG MainThread emoteEnginge EmotionPredictor predicti am happy
+2024-05-20 23:55:53,502 DEBUG MainThread emoteEnginge EmotionPredictor prediction: [1]
+2024-05-20 23:55:53,503 DEBUG MainThread emoteEnginge emotion: happy
+2024-05-20 23:55:53,503 DEBUG MainThread emoteEnginge BlinkThread stop False
+2024-05-20 23:55:54,705 DEBUG blinkThread emoteEnginge BlinkThread check stopped True
+2024-05-20 23:55:54,705 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:55:54,705 DEBUG MainThread starEyes starEyes.py
+2024-05-20 23:55:54,705 DEBUG MainThread starEyes display all png
+2024-05-20 23:55:55,066 DEBUG MainThread starEyes display only the last image
+2024-05-20 23:55:57,067 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:56:28,187 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:57:43,556 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:57:48,626 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:57:48,626 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:57:48,728 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:57:48,728 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:57:54,745 DEBUG blinkThread emoteEnginge BlinkThread check stopped False
+2024-05-20 23:57:54,745 DEBUG blinkThread emoteEnginge BlinkThread lock
+2024-05-20 23:57:54,844 DEBUG blinkThread emoteEnginge BlinkThread unlock
+2024-05-20 23:57:54,844 DEBUG blinkThread emoteEnginge BlinkThread check stopped False

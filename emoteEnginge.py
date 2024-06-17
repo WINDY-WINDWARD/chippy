@@ -36,31 +36,32 @@ from Emotions.anger.anger import anger_hold
 import Emotions.utilFunctions.displayFunctions as displayFunctions
 from random import randint
 import time
+import pickle
 
 
-class ThreadWithStop(threading.Thread):
+class BlinkThread(threading.Thread):
     def __init__(self, *args, **kwargs):
-        super(ThreadWithStop, self).__init__(*args, **kwargs)
+        super(BlinkThread, self).__init__(*args, **kwargs)
         self._stop_event = threading.Event()
         self._lock = threading.Lock()
 
     def stop(self):
-        logging.debug("stop %s", self._lock.locked())
+        logging.debug("BlinkThread stop %s", self._lock.locked())
         while self._lock.locked():
             logging.debug("wait for lock to be released")
             time.sleep(0.001)  # Wait a bit for the lock to be released
         self._stop_event.set()
 
     def stopped(self):
-        logging.debug("check stopped %s", self._stop_event.is_set())
+        logging.debug("BlinkThread check stopped %s", self._stop_event.is_set())
         return self._stop_event.is_set()
     
     def lock(self):
-        logging.debug("lock")
+        logging.debug("BlinkThread lock")
         self._lock.acquire()
 
     def unlock(self):
-        logging.debug("unlock")
+        logging.debug("BlinkThread unlock")
         if self._lock.locked():
             self._lock.release()
 
@@ -76,87 +77,60 @@ class ThreadWithStop(threading.Thread):
                 self.unlock()
 
 
-def menu():
-    print("1. Blink")
-    print("2. StarEyes")
-    print("3. lookLeft")
-    print("4. lookRight")
-    print("5.shy")
-    print("6. anger")
-    print("99. Exit")
-    choice = input("Enter your choice: ")
-    logging.debug("choice: %s", choice)
-    return choice
 
+def EmotionEngine(display):
+    global shared_data
+    emotion = shared_data["emotion"]
+    if emotion == "happy":
+        starEyes.main(display,2)
+    elif emotion == "sad":
+        lookLeft_hold(display,2)
+    elif emotion == "love":
+        lookRight_hold(display,2)
+    elif emotion == "anger":
+        anger_hold(display,6)
+    elif emotion == "fear":
+        shy_hold(display,2)
+    else:
+        logging.error("emotion not found")
+        display.Text_display("emotion not found")
+        return
+    shared_data["emotion"] = None
+
+class EmotionPredictor:
+    def __init__(self):
+        self.svm_model = pickle.load(open("./ML_model/svm_model.sav", 'rb'))
+        self.vectorizer = pickle.load(open("./ML_model/vectorizer.sav", 'rb'))
+        self.emotions = ["neutral","happy", "sad", "love", "anger","fear"]
+
+    def predict(self, text):
+        logging.debug("EmotionPredictor predict"+ str(text))
+        text = self.vectorizer.transform([str(text)])
+        prediction = self.svm_model.predict(text)
+        logging.debug("EmotionPredictor prediction: %s", prediction)
+        return self.emotions[prediction[0]]
+    
 if __name__ == "__main__":
-    try:
-        device = get_device()
-        display = displayFunctions.DisplayFunctions(device)
-        blink_thread = ThreadWithStop()
-
-        blink_thread.start()
-
-        while True:
-            logging.debug("running main thread")
-            choice = menu()
-
-            if choice == "1":
-                logging.debug("Blink")
-                if not blink_thread.is_alive():
-                    blink_thread = ThreadWithStop()
-                    blink_thread.start()
-
-            elif choice == "2":
-                logging.debug("StarEyes")
-                if blink_thread.is_alive():
-                    logging.debug("stop blink")
-                    blink_thread.stop()
-                starEyes.main(display)
-                blink_thread = ThreadWithStop()
-                blink_thread.start()
-
-            elif choice == "3":
-                logging.debug("lookLeft")
-                if blink_thread.is_alive():
-                    logging.debug("stop blink")
-                    blink_thread.stop()
-                lookLeft_hold(display,3)
-                blink_thread = ThreadWithStop()
-                blink_thread.start()
-
-            elif choice == "4":
-                logging.debug("lookRight")
-                if blink_thread.is_alive():
-                    logging.debug("stop blink")
-                    blink_thread.stop()
-                lookRight_hold(display,3)
-                blink_thread = ThreadWithStop()
-                blink_thread.start()
-
-            elif choice == "5":
-                logging.debug("shy")
-                if blink_thread.is_alive():
-                    logging.debug("stop blink")
-                    blink_thread.stop()
-                shy_hold(display,6)
-                blink_thread = ThreadWithStop()
-                blink_thread.start()
-
-            elif choice == "6":
-                logging.debug("anger")
-                if blink_thread.is_alive():
-                    logging.debug("stop blink")
-                    blink_thread.stop()
-                anger_hold(display,6)
-                blink_thread = ThreadWithStop()
-                blink_thread.start()
-
-
-            elif choice == "99":
-                logging.debug("Exit")
-                blink_thread.stop()
-                break            
-
-            logging.debug("end of main thread")
-    except KeyboardInterrupt:
-        blink_thread.stop()
+    # start blinking thread
+    device = get_device()
+    display = displayFunctions.DisplayFunctions(device)
+    emotionPredictor = EmotionPredictor()
+    blinkThread = BlinkThread(name="blinkThread")
+    blinkThread.start()
+    shared_data = {"emotion": None}
+    # start emotion engine
+    while True:
+        text = input("Enter text: ")
+        if text == "stop":
+            blinkThread.stop()
+            blinkThread.join()
+            break
+        emotion = emotionPredictor.predict(text)
+        logging.debug("emotion: %s", emotion)
+        # stop blinking thread
+        blinkThread.stop()
+        blinkThread.join()
+        shared_data["emotion"] = emotion
+        EmotionEngine(display)
+        blinkThread = BlinkThread(name="blinkThread")
+        blinkThread.start()
